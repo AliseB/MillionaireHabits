@@ -55,3 +55,13 @@ emails, or any personally identifiable information is included.
 
 This is a synthetic dataset created for research, educational, exploratory data analysis,
 visualization, and machine-learning experimentation.
+
+## Profiling
+
+```bash
+pip install -r requirements.txt
+python scripts/profile_data.py   # writes reports/column_profile.csv
+```
+
+Findings on fields, missing data, skew, redundant columns and leakage are in
+[reports/data_profile.md](reports/data_profile.md).
